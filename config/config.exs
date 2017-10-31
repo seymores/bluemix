@@ -27,9 +27,7 @@ use Mix.Config
 # Configuration from the imported file will override the ones defined
 # here (which is why it is important to import them last).
 #
-#     import_config "#{Mix.env}.exs"
+
+import_config "#{Mix.env}.exs"
 
 
-config :bluemix, url: "https://gateway.watsonplatform.net/natural-language-understanding/api",
-                 username: "c44e3512-9dd1-426c-bdf7-70c67b3ee7f0",
-                 password: "gyJpdSOLpxWr"
