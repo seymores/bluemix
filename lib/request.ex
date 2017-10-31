@@ -22,6 +22,7 @@ defmodule Bluemix.NaturalLangUnderstanding do
 
   """
   def analyze(url, features \\ "keywords,entities", headers \\ []) do
+    features = String.replace(features, " ", "")
     url = Application.get_env(:bluemix, :url) <> "/v1/analyze?version=2017-02-27&url=#{url}&features=#{features}"
     username = Application.get_env(:bluemix, :username)
     password = Application.get_env(:bluemix, :password)
