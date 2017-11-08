@@ -1,21 +1,14 @@
 # Bluemix
 
-**TODO: Add description**
+Work In Progress: [Bluemix Watson Language Understanding API](https://www.ibm.com/watson/services/natural-language-understanding) for Elixir.
 
 ## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `bluemix` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
   [
-    {:bluemix, "~> 0.1.0"}
+    {:bluemix, github: "seymores/bluemix"}
   ]
 end
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/bluemix](https://hexdocs.pm/bluemix).
 
